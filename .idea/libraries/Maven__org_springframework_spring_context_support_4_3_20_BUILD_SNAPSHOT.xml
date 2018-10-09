@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-context-support:4.3.20.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.20.BUILD-SNAPSHOT/spring-context-support-4.3.20.BUILD-20180914.141317-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.20.BUILD-SNAPSHOT/spring-context-support-4.3.20.BUILD-20180914.141317-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.20.BUILD-SNAPSHOT/spring-context-support-4.3.20.BUILD-20180914.141317-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

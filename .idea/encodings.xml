@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-mdc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-sdk-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-omc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-tpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/passcloud-provider-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-base-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-base-server/admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-base-server/conf-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-base-server/euerka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-base-server/gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-base-server/sleuth-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-base-server/turbine-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-common-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-common-conf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-common-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-security-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-security-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/passcloud-common/passcloud-security-feign" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

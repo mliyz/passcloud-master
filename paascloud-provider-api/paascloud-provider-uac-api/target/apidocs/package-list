@@ -1,0 +1,7 @@
+com.paascloud.provider.model.constant
+com.paascloud.provider.model.dto.user
+com.paascloud.provider.model.enums
+com.paascloud.provider.model.exceptions
+com.paascloud.provider.model.service
+com.paascloud.provider.model.service.hystrix
+com.paascloud.provider.model.vo

@@ -1,0 +1,25 @@
+spring:
+  cloud:
+    config:
+      fail-fast: true
+#      discovery:
+#        service-id: conf-server
+#        enabled: true
+      label: master
+#      profile: ${spring.profiles.active}
+      username: admin
+      password: admin
+      uri: http://${eureka.instance.hostname}:8762
+  boot:
+    admin:
+      client:
+        url: http://${eureka.instance.hostname}:8760
+  zipkin:
+    base-url: http://${eureka.instance.hostname}/:9411
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@${eureka.instance.hostname}:8761/eureka/
+  instance:
+    hostname: 192.168.139.5
+#    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}

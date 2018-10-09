@@ -1,0 +1,61 @@
+server:
+  port: 8764
+  http2:
+    enabled: true
+spring:
+  profiles:
+    active: dev
+  application:
+    name: gateway-server
+  zipkin:
+    rabbitmq:
+      queue: zipkin
+  sleuth:
+      web:
+        client:
+          enabled: true
+      sampler:
+        probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
+  rabbitmq:
+    host: 192.168.139.5
+    port: 5672
+    username: gostyu
+    password: gostyu
+  aop:
+    proxy-target-class: true
+  cloud:
+      bus:
+        trace:
+          enabled: true
+        enabled: true
+#  redis:
+#    cluster:
+#      nodes: 192.168.139.5:6379
+#    password: 123456
+swagger:
+  title: gateway-server
+  description: 路由网关
+  butler:
+    auto-generate-from-zuul-routes: false
+###actuator监控点 start####
+#endpoints:
+#  health:
+#    sensitive: false
+#    enabled: true
+##默认情况下很多端点是不允许访问的，会返回401:Unauthorized
+
+
+security:
+#  basic:
+#    enabled: false
+  oauth2:
+    client:
+      client-id: uac
+      client-secret: uac
+      access-token-uri: http://localhost:8090/oauth/token
+      user-authorization-uri: http://localhost:8090/oauth/authorize
+      scope: "*"
+    resource:
+#      userInfoUri: http://localhost:8090/uac/auth/hi
+#      prefer-token-info: false
+      token-info-uri: http://localhost:8090/oauth/check_token

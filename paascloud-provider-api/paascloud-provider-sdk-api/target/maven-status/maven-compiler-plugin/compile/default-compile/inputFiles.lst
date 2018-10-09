@@ -1,0 +1,15 @@
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\model\domain\MqMessageData.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\annotation\MqConsumerStore.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\model\dto\UpdateAttachmentDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\aspect\MqProducerStoreAspect.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\autoconfigure\MessageBeanConfiguration.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\service\impl\MqMessageServiceImpl.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\model\enums\MqOrderTypeEnum.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\model\enums\MqSendTypeEnum.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\autoconfigure\MessageAutoConfiguration.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\model\enums\DelayLevelEnum.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\mapper\MqMessageDataMapper.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\service\MqMessageService.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\annotation\MqProducerStore.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\model\enums\MqMessageTypeEnum.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-sdk-api\src\main\java\com\paascloud\provider\aspect\MqConsumerStoreAspect.java

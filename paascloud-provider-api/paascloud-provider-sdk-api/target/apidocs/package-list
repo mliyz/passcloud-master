@@ -1,0 +1,9 @@
+com.paascloud.provider.annotation
+com.paascloud.provider.aspect
+com.paascloud.provider.autoconfigure
+com.paascloud.provider.mapper
+com.paascloud.provider.model.domain
+com.paascloud.provider.model.dto
+com.paascloud.provider.model.enums
+com.paascloud.provider.service
+com.paascloud.provider.service.impl

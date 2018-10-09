@@ -1,0 +1,8 @@
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\GatewayServerApplication.java
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\fallback\UacFallbackProvider.java
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\filter\AuthHeaderFilter.java
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\controller\HystrixCommandController.java
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\filter\RenewFilter.java
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\config\GatewayConfiguration.java
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\config\RouteConfiguration.java
+D:\workspack\project\gostyu\passcloud-master\passcloud-base-server\gateway-server\src\main\java\com\gateway\config\SecurityConfig.java

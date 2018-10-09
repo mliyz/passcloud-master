@@ -1,0 +1,17 @@
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\UserRegisterDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\UserInfoDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\service\UacMqMessageFeignApi.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\ResetPasswordDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\service\hystrix\UacMqMessageApiHystrix.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\IdStatusDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\LoginReqDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\constant\UacConstant.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\Perm.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\ForgetResetPasswordDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\dto\user\ForgetCheckAnswerDto.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\exceptions\UacBizException.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\service\hystrix\UacUserTokenFeignApiHystrix.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\service\UacUserTokenFeignApi.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\constant\UacApiConstant.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\vo\MenuVo.java
+D:\workspack\project\gostyu\passcloud-master\paascloud-provider-api\paascloud-provider-uac-api\src\main\java\com\paascloud\provider\model\enums\UacGroupTypeEnum.java

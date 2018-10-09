@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-base-server/gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/passcloud-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/passcloud-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/passcloud-common-conf/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/passcloud-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/passcloud-security-app/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/passcloud-security-core/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/passcloud-security-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/passcloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider/passcloud-provider-test/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

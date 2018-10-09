@@ -1,0 +1,26 @@
+server:
+  port: 8762
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: conf-server
+  rabbitmq:
+    host: 192.168.148.148
+    port: 5672
+    username: gostyu
+    password: gostyu
+  security:
+    user:
+      name: admin
+      password: admin
+#开启端点以及跨域,默认web只开启了health和info
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"

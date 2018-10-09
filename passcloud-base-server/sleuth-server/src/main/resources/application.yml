@@ -1,0 +1,46 @@
+server:
+  port: 9411
+spring:
+  application:
+    name: sleuth-server
+  sleuth:
+    sampler:
+      probability: 1.0
+    enabled: false    #监控开关
+   #mysql config
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.139.5:3306/passcloud_test?useUnicode=true&characterEncoding=utf8&useSSL=false
+#    username: yuzhang
+#    password: Yuzhang0219!
+#    test-on-borrow: true
+#    validation-query: select 1
+#    initial-size: 50
+#    max-active: 50
+#    max-idle: 50
+#    min-idle: 50
+#    initialize: true
+#    continue-on-error: true
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: 192.168.148.148:5672
+      username: gostyu
+      password: gostyu
+      queue: zipkin
+#  storage:
+#    type: mysql
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
+    use-global-registry: false
+    export:
+      datadog:
+        enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"

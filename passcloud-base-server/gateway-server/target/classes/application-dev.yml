@@ -1,0 +1,24 @@
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#      default-filters:
+#      routes:
+#      - id: provider-uac
+#        uri: lb://provider-uac
+#        predicates:
+#        - Path=/uac/**
+#        filters:
+#        - StripPrefix=1
+#        - name: RateCheck
+#        - JwtCheck
+#          args:
+##            name: authHystrixCommand
+##            fallbackUri: forward:/hystrixTimeout
+#            keyResolver: apiKeyResolver
+#            retries: 3 #重试次数，默认3，不包含本次
+#            status: 404 #重试response code，默认没有
+#            statusSeries: 500 #重试response code的系列，100（info），200（success），300（redirect），400（client error），500（server error），默认500
+#            method: GET #重试的request请求，默认GET

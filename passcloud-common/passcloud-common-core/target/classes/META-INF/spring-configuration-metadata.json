@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.passcloud.common.core.config.RedisConfiguration$DataJedisProperties",
+      "name": "spring.redis",
+      "type": "com.passcloud.common.core.config.RedisConfiguration$DataJedisProperties"
+    }
+  ],
+  "properties": []
+}

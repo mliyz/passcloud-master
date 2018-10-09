@@ -1,0 +1,36 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.passcloud.security.core.properties.SecurityProperties",
+      "name": "paascloud.security",
+      "type": "com.passcloud.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.passcloud.security.core.properties.SecurityProperties",
+      "name": "paascloud.security.browser",
+      "description": "浏览器环境配置",
+      "type": "com.passcloud.security.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.passcloud.security.core.properties.SecurityProperties",
+      "name": "paascloud.security.code",
+      "description": "验证码配置",
+      "type": "com.passcloud.security.core.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "com.passcloud.security.core.properties.SecurityProperties",
+      "name": "paascloud.security.oauth2",
+      "description": "OAuth2认证服务器配置",
+      "type": "com.passcloud.security.core.properties.OAuth2Properties"
+    },
+    {
+      "sourceType": "com.passcloud.security.core.properties.SecurityProperties",
+      "name": "paascloud.security.social",
+      "description": "社交登录配置",
+      "type": "com.passcloud.security.core.properties.SocialProperties"
+    }
+  ]
+}

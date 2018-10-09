@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-base-server" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-base-server/euerka-server" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-base-server/turbine-server" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-base" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-conf" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-core" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-util" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-zk" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-app" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-core" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-feign" vcs="svn" />
+  </component>
+</project>

@@ -1,0 +1,79 @@
+spring:
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        service-id: conf-server
+        enabled: true
+      label: master
+#      profile: ${spring.profiles.active}
+      username: admin
+      password: admin
+#      uri: http://${eureka.instance.hostname}:8762
+  boot:
+    admin:
+      client:
+#        url: http://${eureka.instance.hostname}:8760
+        instance:
+          service-base-url: http://${eureka.instance.hostname}:8760
+  zipkin:
+    base-url: http://${eureka.instance.hostname}/:9411
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@${eureka.instance.hostname}:8761/eureka/
+  instance:
+#    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+#    hostname: 192.168.139.5
+    hostname: localhost
+    prefer-ip-address: true
+    status-page-url-path: /actuator/info
+    health-check-url-path: /actuator/health
+
+zuul:
+  sensitive-headers: Cookie,Set-Cookie,Authorization   #会话保持 (避免Cookie 传到下游服务器时混淆)
+#  ignored-headers: Authorization
+  retryable: true   #是否开启重试功能
+  add-host-header: true   #重定向
+  ribbonIsolationStrategy: THREAD  #此隔离模式是首选
+  addProxyHeaders: false    #前缀路径被删除，对后端的请求会拾取一个标题“X-Forwarded-Prefix”
+  forceOriginalQueryStringEncoding: true #查询字符串编码
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 10000
+    maxTotalConnections: 200
+    maxPerRouteConnections: 20
+  ignored-services: '*'  #设置为服务标识模式列表(用户其他服务的注册 例如: Eureka)
+  routes:
+    api-uac:
+      path: /uac/**
+      sensitiveHeaders:     #将Cookie或授权标头传递到后端
+      serviceId: provider-uac
+      custom-sensitive-headers: true
+      stripPrefix: true #代理前缀被删除
+
+
+
+#users:
+#  ribbon:
+#    listOfServers: example.com,google.com
+#超大文件也将需要提升超时设置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+ribbon:
+  MaxAutoRetries: 2 #对当前服务的重试次数
+  MaxAutoRetriesNextServer: 0 #切换相同Server的次数
+  eureka:
+    enabled: true
+  okhttp:
+    enabled: true
+  ConnectTimeout: 60000
+  ReadTimeout: 60000

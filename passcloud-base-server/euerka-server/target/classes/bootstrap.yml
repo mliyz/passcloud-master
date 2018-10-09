@@ -1,0 +1,17 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://${eureka.instance.hostname}:8760
+
+
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka

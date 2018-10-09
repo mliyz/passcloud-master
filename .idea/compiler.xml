@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
+        <module name="conf-server" />
+        <module name="euerka-server" />
+        <module name="gateway-server" />
+        <module name="paascloud-provider-mdc" />
+        <module name="paascloud-provider-mdc-api" />
+        <module name="paascloud-provider-omc" />
+        <module name="paascloud-provider-omc-api" />
+        <module name="paascloud-provider-opc" />
+        <module name="paascloud-provider-opc-api" />
+        <module name="paascloud-provider-sdk-api" />
+        <module name="paascloud-provider-tpc" />
+        <module name="paascloud-provider-tpc-api" />
+        <module name="paascloud-provider-uac" />
+        <module name="paascloud-provider-uac-api" />
+        <module name="passcloud-common-base" />
+        <module name="passcloud-common-conf" />
+        <module name="passcloud-common-core" />
+        <module name="passcloud-common-util" />
+        <module name="passcloud-common-zk" />
+        <module name="passcloud-security-app" />
+        <module name="passcloud-security-core" />
+        <module name="passcloud-security-feign" />
+        <module name="sleuth-server" />
+        <module name="turbine-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
+      <module name="conf-server" target="1.8" />
+      <module name="euerka-server" target="1.8" />
+      <module name="gateway-server" target="1.8" />
+      <module name="paascloud-provider" target="1.8" />
+      <module name="paascloud-provider-api" target="1.8" />
+      <module name="paascloud-provider-mdc" target="1.8" />
+      <module name="paascloud-provider-mdc-api" target="1.8" />
+      <module name="paascloud-provider-omc" target="1.8" />
+      <module name="paascloud-provider-omc-api" target="1.8" />
+      <module name="paascloud-provider-opc" target="1.8" />
+      <module name="paascloud-provider-opc-api" target="1.8" />
+      <module name="paascloud-provider-sdk-api" target="1.8" />
+      <module name="paascloud-provider-tpc" target="1.8" />
+      <module name="paascloud-provider-tpc-api" target="1.8" />
+      <module name="paascloud-provider-uac" target="1.8" />
+      <module name="paascloud-provider-uac-api" target="1.8" />
+      <module name="passcloud-base-server" target="1.8" />
+      <module name="passcloud-common" target="1.8" />
+      <module name="passcloud-common-base" target="1.8" />
+      <module name="passcloud-common-conf" target="1.8" />
+      <module name="passcloud-common-core" target="1.8" />
+      <module name="passcloud-common-util" target="1.8" />
+      <module name="passcloud-common-zk" target="1.8" />
+      <module name="passcloud-master" target="1.8" />
+      <module name="passcloud-security-app" target="1.8" />
+      <module name="passcloud-security-core" target="1.8" />
+      <module name="passcloud-security-feign" target="1.8" />
+      <module name="sleuth-server" target="1.8" />
+      <module name="turbine-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

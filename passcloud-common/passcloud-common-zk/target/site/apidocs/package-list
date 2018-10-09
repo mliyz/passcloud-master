@@ -1,0 +1,5 @@
+com.passcloud.common.zk.generator
+com.passcloud.common.zk.registry
+com.passcloud.common.zk.registry.base
+com.passcloud.common.zk.registry.exception
+com.passcloud.common.zk.registry.zookeeper

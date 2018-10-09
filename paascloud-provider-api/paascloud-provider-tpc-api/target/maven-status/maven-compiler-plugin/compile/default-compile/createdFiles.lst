@@ -1,0 +1,7 @@
+com\paascloud\provider\model\dto\PcMessageJobTask.class
+com\paascloud\provider\model\dto\PcJobTask.class
+com\paascloud\provider\service\TpcMqMessageFeignApi.class
+com\paascloud\provider\model\dto\TpcMqMessageDto.class
+com\paascloud\provider\model\enums\JobTaskStatusEnum.class
+com\paascloud\provider\service\hystrix\TpcMqMessageFeignApiHystrix.class
+com\paascloud\provider\exceptions\TpcBizException.class

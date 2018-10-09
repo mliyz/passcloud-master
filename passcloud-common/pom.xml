@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.passcloud.common</groupId>
+	<artifactId>passcloud-common</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>passcloud-common</name>
+	<description>公共</description>
+
+	<parent>
+		<groupId>com.passcloud.master</groupId>
+		<artifactId>passcloud-master</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<modules>
+		<module>passcloud-common-base</module>
+		<module>passcloud-common-util</module>
+		<module>passcloud-common-conf</module>
+		<module>passcloud-common-core</module>
+		<module>passcloud-security-app</module>
+		<module>passcloud-security-core</module>
+		<module>passcloud-security-feign</module>
+		<module>passcloud-common-zk</module>
+	</modules>
+</project>

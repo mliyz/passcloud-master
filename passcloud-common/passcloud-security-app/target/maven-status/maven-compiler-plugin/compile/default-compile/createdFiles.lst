@@ -1,0 +1,16 @@
+com\passcloud\security\app\authentication\openid\OpenIdAuthenticationFilter.class
+com\passcloud\security\server\TokenStoreConfig.class
+com\passcloud\security\app\authentication\openid\OpenIdAuthenticationToken.class
+com\passcloud\security\app\AppSecretException.class
+com\passcloud\security\app\authentication\openid\OpenIdAuthenticationProvider.class
+com\passcloud\security\app\authentication\openid\OpenIdAuthenticationSecurityConfig.class
+com\passcloud\security\server\PcAccessDeniedHandler.class
+com\passcloud\security\server\TokenJwtEnhancer.class
+com\passcloud\security\app\social\SpringSocialConfigurerPostProcessor.class
+com\passcloud\security\server\TokenStoreConfig$RedisConfig.class
+com\passcloud\security\app\social\AppSingUpUtils.class
+com\passcloud\security\server\PcWebResponseExceptionTranslator.class
+com\passcloud\security\server\TokenStoreConfig$JwtConfig.class
+com\passcloud\security\app\AppSecurityController.class
+com\passcloud\security\server\PcResourceServerConfig.class
+com\passcloud\security\app\social\AppSocialAuthenticationFilterPostProcessor.class

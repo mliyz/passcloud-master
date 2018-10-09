@@ -1,0 +1,17 @@
+com\passcloud\common\conf\properties\QiniuProperties.class
+com\passcloud\common\conf\properties\AliyunProperties$AliyunSmsProperties.class
+com\passcloud\common\conf\properties\JobProperties.class
+com\passcloud\common\conf\properties\JobProperties$JobTask.class
+com\passcloud\common\conf\properties\JobProperties$JobTask$JobCoreProperties.class
+com\passcloud\common\conf\properties\ReliableMessageProperties.class
+com\passcloud\common\conf\properties\AliyunProperties$AliyunKeyProperties.class
+com\passcloud\common\conf\properties\SwaggerProperties.class
+com\passcloud\common\conf\properties\PaascloudProperties.class
+com\passcloud\common\conf\properties\QiniuProperties$QiniuKeyProperties.class
+com\passcloud\common\conf\properties\AsyncTaskProperties.class
+META-INF\spring-configuration-metadata.json
+com\passcloud\common\conf\properties\ZookeeperProperties.class
+com\passcloud\common\conf\properties\AliyunProperties$RocketMqProperties.class
+com\passcloud\common\conf\properties\AliyunProperties.class
+com\passcloud\common\conf\properties\QiniuProperties$QiniuOssProperties.class
+com\passcloud\common\conf\properties\GaodeProperties.class

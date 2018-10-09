@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud",
+      "type": "com.passcloud.common.conf.properties.PaascloudProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.aliyun",
+      "type": "com.passcloud.common.conf.properties.AliyunProperties"
+    },
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.gaode",
+      "type": "com.passcloud.common.conf.properties.GaodeProperties"
+    },
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.job",
+      "type": "com.passcloud.common.conf.properties.JobProperties"
+    },
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.message",
+      "type": "com.passcloud.common.conf.properties.ReliableMessageProperties"
+    },
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.qiniu",
+      "type": "com.passcloud.common.conf.properties.QiniuProperties"
+    },
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.swagger",
+      "type": "com.passcloud.common.conf.properties.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.task",
+      "type": "com.passcloud.common.conf.properties.AsyncTaskProperties"
+    },
+    {
+      "sourceType": "com.passcloud.common.conf.properties.PaascloudProperties",
+      "name": "paascloud.zk",
+      "type": "com.passcloud.common.conf.properties.ZookeeperProperties"
+    }
+  ]
+}

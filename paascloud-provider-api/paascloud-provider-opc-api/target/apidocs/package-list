@@ -1,0 +1,11 @@
+com.paascloud.provider.exceptions
+com.paascloud.provider.model.constant
+com.paascloud.provider.model.dto
+com.paascloud.provider.model.dto.attachment
+com.paascloud.provider.model.dto.gaode
+com.paascloud.provider.model.dto.oss
+com.paascloud.provider.model.dto.robot
+com.paascloud.provider.model.enums
+com.paascloud.provider.model.factory
+com.paascloud.provider.service
+com.paascloud.provider.service.hystrix

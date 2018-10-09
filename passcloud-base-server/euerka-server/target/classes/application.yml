@@ -1,0 +1,13 @@
+server:
+  port: 8761
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: euerka-server
+  security:
+    user:
+      name: root
+      password: root
+

@@ -1,0 +1,22 @@
+server:
+  port: 8760
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+logging:
+  level:
+    tk:
+      mybatis: TRACK
+spring:
+  application:
+    name: SpringBootAdminServer
+  boot:
+    admin:
+      url: http://${eureka.instance.hostname}:${server.port}
+  jackson:
+    serialization:
+      indent_output: true
+

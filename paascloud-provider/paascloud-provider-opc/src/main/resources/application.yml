@@ -1,0 +1,66 @@
+server:
+  port: 8070
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: provider-opc
+  zipkin:
+    rabbitmq:
+      queue: zipkin
+    sleuth:
+      sampler:
+        percentage: 1.0
+  rabbitmq:
+    host: 192.168.148.148
+    port: 5672
+    username: gostyu
+    password: gostyu
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.148.148:3306/paascloud_mdc?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: yuzhang
+    password: Yuzhang0219!
+  redis:
+    ### Redis数据库索引（默认 0）
+    database: 0
+    host: 192.168.148.148
+    port: 6379
+    password: 123456
+    jedis:
+      pool:
+        ###连接池最大连接数（使用负值表示没有限制）
+        max-active: 8
+        ###连接池最大阻塞等待时间 （使用负值表示没有限制）
+        max-wait: -1
+        ###连接池中的最大空闲连接
+        max-idle: 5
+        ###连接池中的最小空闲连接
+        min-idle: 0
+    ###连接超时时间（毫秒）
+    timeout: 10000
+security:
+  oauth2:
+    client:
+      clientId: paascloud-browser
+      clientSecret: paascloudClientSecret
+      access-token-uri: http://localhost:7979/uac/oauth/token
+      user-authorization-uri: http://localhost:7979/uac/oauth/authorize
+    resource:
+      id: browser-service
+      user-info-uri: http://localhost:7979/uac/user
+paascloud:
+  oauth2:
+    client:
+      id: ${security.oauth2.resource.id}
+      accessTokenUrl: http://localhost:7979/uac/oauth/token
+      clientId: ${security.oauth2.client.clientId}
+      clientSecret: ${security.oauth2.client.clientSecret}
+      clientAuthenticationScheme: header
+    jwtSigningKey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE1MTY3MjY4MTMsImJsb2ciOiJodHRwczovL2xvbmdmZWl6aGVuZy5naXRodWIuaW8vIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImJmZmY0NjRjLTFiNTktNGZkNy1hNTE4LWU3YjY5MDFiNzU3YyIsImNsaWVudF9pZCI6Im1lcnJ5eW91In0.gp5t9nY9mGp5O2-yqdflc0nEAsTeCQG7VugA8q8XcF4
+  enableSqlLogInterceptor: true
+  security: enable
+  zk:
+    zkAddressList: 192.168.148.148:2181
+    namespace: ""

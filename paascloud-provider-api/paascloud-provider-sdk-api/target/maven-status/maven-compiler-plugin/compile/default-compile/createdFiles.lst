@@ -1,0 +1,15 @@
+com\paascloud\provider\service\MqMessageService.class
+com\paascloud\provider\autoconfigure\MessageAutoConfiguration.class
+com\paascloud\provider\annotation\MqProducerStore.class
+com\paascloud\provider\autoconfigure\MessageBeanConfiguration.class
+com\paascloud\provider\model\enums\MqMessageTypeEnum.class
+com\paascloud\provider\annotation\MqConsumerStore.class
+com\paascloud\provider\aspect\MqConsumerStoreAspect.class
+com\paascloud\provider\model\enums\MqOrderTypeEnum.class
+com\paascloud\provider\model\dto\UpdateAttachmentDto.class
+com\paascloud\provider\model\enums\DelayLevelEnum.class
+com\paascloud\provider\aspect\MqProducerStoreAspect.class
+com\paascloud\provider\mapper\MqMessageDataMapper.class
+com\paascloud\provider\service\impl\MqMessageServiceImpl.class
+com\paascloud\provider\model\domain\MqMessageData.class
+com\paascloud\provider\model\enums\MqSendTypeEnum.class

@@ -1,0 +1,6 @@
+com\passcloud\security\feign\CustomHystrixConcurrencyStrategy$HystrixContextWrapper.class
+com\passcloud\security\feign\Oauth2FeignErrorInterceptor.class
+com\passcloud\security\feign\CustomHystrixConcurrencyStrategy.class
+com\passcloud\security\feign\Oauth2ClientProperties.class
+com\passcloud\security\feign\OAuth2FeignAutoConfiguration.class
+com\passcloud\security\feign\OAuth2FeignRequestInterceptor.class

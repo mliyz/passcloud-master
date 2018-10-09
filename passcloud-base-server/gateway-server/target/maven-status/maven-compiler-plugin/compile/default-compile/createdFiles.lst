@@ -1,0 +1,9 @@
+com\gateway\fallback\UacFallbackProvider.class
+com\gateway\config\SecurityConfig.class
+com\gateway\fallback\UacFallbackProvider$1.class
+com\gateway\config\GatewayConfiguration.class
+com\gateway\filter\RenewFilter.class
+com\gateway\GatewayServerApplication.class
+com\gateway\filter\AuthHeaderFilter.class
+com\gateway\controller\HystrixCommandController.class
+com\gateway\config\RouteConfiguration.class
