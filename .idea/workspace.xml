@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1b2fc40d-92b0-4454-9936-eb2fdce6d6b9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/passcloud-base-server/conf-server/target/" />
     <ignored path="$PROJECT_DIR$/passcloud-base-server/turbine-server/target/" />
@@ -83,12 +84,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UacMqMessageFeignApi.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UacMqMessageFeignApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api/src/main/java/com/paascloud/provider/model/service/UacMqMessageFeignApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="427">
-              <caret line="30" column="140" lean-forward="true" selection-start-line="30" selection-start-column="140" selection-end-line="30" selection-end-column="140" />
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="418">
+                <caret line="106" column="34" lean-forward="true" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -97,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api/src/main/java/com/paascloud/provider/model/service/hystrix/UacMqMessageApiHystrix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#659#660#0" expanded="true" />
@@ -172,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/src/main/java/com/paascloud/provider/security/PcAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/src/main/java/com/paascloud/provider/web/admin/AuthRestController.java" />
         <option value="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-sdk-api/src/main/java/com/paascloud/provider/model/domain/MqMessageData.java" />
         <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/src/main/resources/liquibase/change_log/2018-08-20-init-schema.xml" />
@@ -223,6 +246,7 @@
         <option value="$PROJECT_DIR$/passcloud-base-server/conf-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/passcloud-base-server/gateway-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/passcloud-base-server/sleuth-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -256,7 +280,7 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="907" />
     <option name="y" value="315" />
     <option name="width" value="974" />
@@ -827,7 +851,7 @@
       <workItem from="1538118624441" duration="4383000" />
       <workItem from="1538125926399" duration="1625000" />
       <workItem from="1538963558584" duration="2504000" />
-      <workItem from="1539055399921" duration="2061000" />
+      <workItem from="1539055399921" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="修改plugins 插件">
       <created>1535517912234</created>
@@ -840,10 +864,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426697000" />
+    <option name="totallyTimeSpent" value="427135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cargo" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -868,7 +893,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42080924" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424893" sideWeight="0.49595377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424893" sideWeight="0.49595377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28487125" sideWeight="0.50404626" order="5" side_tool="true" content_ui="tabs" />
@@ -937,13 +962,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/src/main/java/com/paascloud/provider/service/impl/UacLoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/passcloud-common/passcloud-security-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1717">
@@ -962,6 +980,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="208" column="12" lean-forward="false" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,6 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5130">
           <caret line="171" column="28" lean-forward="false" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,6 +1053,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="43" column="30" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,17 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/src/main/java/com/paascloud/provider/web/admin/AuthRestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1973">
@@ -1299,7 +1309,7 @@
     <entry file="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api/src/main/java/com/paascloud/provider/model/service/hystrix/UacMqMessageApiHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#641#642#0" expanded="true" />
             <element signature="e#659#660#0" expanded="true" />
@@ -1310,8 +1320,27 @@
     <entry file="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api/src/main/java/com/paascloud/provider/model/service/UacMqMessageFeignApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
-          <caret line="30" column="140" lean-forward="true" selection-start-line="30" selection-start-column="140" selection-end-line="30" selection-end-column="140" />
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="106" column="34" lean-forward="true" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
