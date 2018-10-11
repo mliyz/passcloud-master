@@ -17,7 +17,7 @@ spring:
       sampler:
         probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
   rabbitmq:
-    host: 192.168.148.148
+    host: localhost
     port: 5672
     username: gostyu
     password: gostyu

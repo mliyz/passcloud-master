@@ -7,7 +7,7 @@ spring:
   application:
     name: conf-server
   rabbitmq:
-    host: 192.168.148.148
+    host: localhost
     port: 5672
     username: gostyu
     password: gostyu
