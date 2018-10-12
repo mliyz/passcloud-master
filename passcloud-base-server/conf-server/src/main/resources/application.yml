@@ -6,11 +6,16 @@ spring:
     active: dev
   application:
     name: conf-server
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: gostyu
+#    password: gostyu
   rabbitmq:
     host: localhost
     port: 5672
-    username: gostyu
-    password: gostyu
+    username: guest
+    password: guest
   security:
     user:
       name: admin

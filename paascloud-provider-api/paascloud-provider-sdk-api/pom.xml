@@ -30,10 +30,10 @@
       <artifactId>spring-boot-configuration-processor</artifactId>
       <optional>true</optional>
     </dependency>
-    <dependency>
+    <!--<dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-    </dependency>
+    </dependency>-->
     <dependency>
       <groupId>org.modelmapper</groupId>
       <artifactId>modelmapper</artifactId>

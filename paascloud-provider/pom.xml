@@ -99,11 +99,6 @@
             <artifactId>commons-codec</artifactId>
         </dependency>
         <dependency>
-            <groupId>tk.mybatis</groupId>
-            <artifactId>mapper</artifactId>
-            <version>${mapper.version}</version>
-        </dependency>
-        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>${druid.version}</version>
@@ -164,17 +159,6 @@
             <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
         </dependency>-->
     </dependencies>
-    <!--<dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>tk.mybatis</groupId>
-                <artifactId>mapper-core</artifactId>
-                <version>1.0.1</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>-->
     <profiles>
         <profile>
             <id>dev</id>

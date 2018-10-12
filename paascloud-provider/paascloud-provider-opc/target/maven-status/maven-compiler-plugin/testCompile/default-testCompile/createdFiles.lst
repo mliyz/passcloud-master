@@ -1,5 +1,1 @@
-com\paascloud\provider\aliyun\MqProducerTest.class
-com\paascloud\provider\aliyun\OptSmsServiceTest.class
 com\paascloud\provider\PaasCloudOmcApplicationTests.class
-com\paascloud\provider\qiniu\OpcOssServiceTest.class
-com\paascloud\provider\mail\MailTest.class

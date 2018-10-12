@@ -17,20 +17,20 @@ spring:
     sampler:
       probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
   rabbitmq:
-    host: 192.168.139.5
+    host: 192.168.148.156
     port: 5672
     username: gostyu
     password: gostyu
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.139.5:3306/passcloud_uac?useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://192.168.148.156:3306/passcloud_uac?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: yuzhang
     password: Yuzhang0219!
 
   redis:
     ### Redis数据库索引（默认 0）
     database: 0
-    host: 192.168.139.5
+    host: 192.168.148.156
     port: 6379
     password: 123456
     jedis:
@@ -108,7 +108,7 @@ paascloud:
         app-secret:
         providerId: weixi
   zk:
-    zkAddressList: 192.168.139.5:2181
+    zkAddressList: 192.168.148.156:2181
     namespace: ""
   aliyun:
     rocketMq:

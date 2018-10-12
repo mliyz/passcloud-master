@@ -19,8 +19,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: gostyu
-    password: gostyu
+    username: guest
+    password: guest
   aop:
     proxy-target-class: true
   cloud:

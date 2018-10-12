@@ -44,7 +44,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-eventbus:0.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-infix:0.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-jxpath:commons-jxpath:1.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.9.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.9.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:antlr-runtime:3.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: antlr:antlr:2.7.7" level="project" />
@@ -93,12 +93,12 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-turbine:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.11" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.turbine:turbine-core:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.servo:servo-core:0.12.21" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.2.RELEASE" level="project" />
@@ -112,7 +112,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.19" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.6.RELEASE" level="project" />
@@ -176,7 +176,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-metadata:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.12" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.archaius:archaius-core:0.7.6" level="project" />
@@ -184,7 +184,11 @@
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.13" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:15.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:26.0-jre" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:2.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.20" level="project" />
   </component>
 </module>

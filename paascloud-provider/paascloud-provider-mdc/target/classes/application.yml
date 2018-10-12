@@ -13,19 +13,19 @@ spring:
       sampler:
         percentage: 1.0
   rabbitmq:
-    host: 192.168.139.5
+    host: 192.168.148.156
     port: 5672
     username: gostyu
     password: gostyu
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.139.5:3306/paascloud_mdc?useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://192.168.148.156:3306/paascloud_mdc?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: yuzhang
     password: Yuzhang0219!
   redis:
     ### Redis数据库索引（默认 0）
     database: 0
-    host: 192.168.139.5
+    host: 192.168.148.156
     port: 6379
     password: 123456
     jedis:
@@ -62,6 +62,6 @@ paascloud:
   enableSqlLogInterceptor: true
   security: enable
   zk:
-    zkAddressList: 192.168.139.5:2181
+    zkAddressList: 192.168.148.156:2181
     namespace: ""
 
