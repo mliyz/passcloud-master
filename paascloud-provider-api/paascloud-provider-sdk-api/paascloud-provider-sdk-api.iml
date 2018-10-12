@@ -45,7 +45,7 @@
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:2.0.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:2.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-oxm:5.0.6.RELEASE" level="project" />

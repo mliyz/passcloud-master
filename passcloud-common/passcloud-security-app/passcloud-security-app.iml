@@ -56,7 +56,7 @@
     <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.56" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.56" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:2.0.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:2.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.0.RELEASE" level="project" />
