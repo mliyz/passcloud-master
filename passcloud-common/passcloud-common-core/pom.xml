@@ -69,12 +69,12 @@
 		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-redis</artifactId>
 			<version>${spring-data-redis.version}</version>
-		</dependency>-->
+		</dependency>
 		<!-- Spring Boot Redis依赖 -->
 		<!-- 注意：1.5版本的依赖和2.0的依赖不一样，注意看哦 1.5我记得名字里面应该没有“data”, 2.0必须是“spring-boot-starter-data-redis” 这个才行-->
 		<dependency>
@@ -82,6 +82,10 @@
 			<artifactId>spring-boot-starter-data-redis</artifactId>
 			<!-- 1.5的版本默认采用的连接池技术是jedis  2.0以上版本默认连接池是lettuce, 在这里采用jedis，所以需要排除lettuce的jar -->
 			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.data</groupId>
+					<artifactId>spring-data-redis</artifactId>
+				</exclusion>
 				<exclusion>
 					<groupId>redis.clients</groupId>
 					<artifactId>jedis</artifactId>
