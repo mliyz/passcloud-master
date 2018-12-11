@@ -2,26 +2,26 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider-api" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-base-server" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-base-server/euerka-server" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-base-server/turbine-server" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-base" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-conf" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-core" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-util" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-zk" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-app" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-core" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-feign" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-base-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-base-server/euerka-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-base-server/turbine-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-conf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-util" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-common-zk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/passcloud-common/passcloud-security-feign" vcs="Git" />
   </component>
 </project>
