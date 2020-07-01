@@ -68,7 +68,7 @@
         <!--<security-web.version>3.2.9.RELEASE</security-web.version>-->
         <codehaus-jackson.version>1.9.13</codehaus-jackson.version>
         <commons-codec.version>1.10</commons-codec.version>
-        <mysql.version>8.0.12</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <httpclientutil.version>1.0</httpclientutil.version>
         <curator.version>4.0.1</curator.version>
         <feign.form.spring.version>3.4.0</feign.form.spring.version>
