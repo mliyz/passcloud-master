@@ -36,7 +36,7 @@
         <druid.version>1.1.10</druid.version>
         <security-jwt.version>1.0.9.RELEASE</security-jwt.version>
         <swagger-butler-core.version>1.1.0</swagger-butler-core.version>
-        <guava.version>26.0-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <jackson.version>1.9.13</jackson.version>
         <hutool-all.version>3.3.2</hutool-all.version>
         <turbine.version>1.4.5.RELEASE</turbine.version>
