@@ -61,7 +61,7 @@
         <alipay-sdk-java.version>3.3.4.ALL</alipay-sdk-java.version>
         <sdk-java.version>20170725114550</sdk-java.version>
         <trade-sdk.version>20161215</trade-sdk.version>
-        <mybatis.version>3.4.2</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <mapper.version>4.0.3</mapper.version>
         <egzosn.version>2.10.2</egzosn.version>
         <security-web.version>5.0.5.RELEASE</security-web.version>
@@ -257,7 +257,7 @@
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
-                <version>3.4.2</version>
+                <version>3.5.6</version>
             </dependency>
 
             <dependency>
